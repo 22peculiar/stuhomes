@@ -1,0 +1,39 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Student Housing Management System - Dashboard
+    link(rel='stylesheet', href='/css/dashboard.css')
+
+  body
+    header
+      h1 Dashboard
+
+    main
+      section#overview
+        h2 Overview
+        p Welcome to the Student Housing Management System dashboard. Here's a quick overview of your information.
+
+      section#quick-actions
+        h2 Quick Actions
+        ul
+          li
+            a(href='#') View Housing Details
+          li
+            a(href='#') Submit Maintenance Request
+          li
+            a(href='#') Pay Rent
+
+      section#recent-activity
+        h2 Recent Activity
+        ul
+          li
+            p User John Doe submitted a maintenance request.
+          li
+            p Payment received for Room 101.
+
+    footer
+      p © 2024 Student Housing Management System. All rights reserved.
+
+    script(src='/js/dashboard.js')
